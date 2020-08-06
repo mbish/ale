@@ -236,7 +236,7 @@ function! ale#Escape(str) abort
         \)
     endif
 
-    return shellescape (a:str)
+    return shellescape(a:str)
 endfunction
 
 " Get the loclist item message according to a given format string.
